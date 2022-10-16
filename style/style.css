@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    font-family: 'Libre Baskerville', serif
+}
+
+.titlee {
+    font-style: italic;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+
+    color: white;
+}
+    
+/*Video background tutorial to keep it fixed on the page copy this code into your CSS file */
+
+video { 
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    filter: brightness(50%);
+
+    display: flex;
+    justify-content: center;
+
+    
+}
+    
+aut {
+    position: relative;
+    bottom: 20px;
+}
+
+
+.pm {
+    position: relative;
+    bottom: 10px;
+}
+
+img {
+    filter: invert(1);
+}
