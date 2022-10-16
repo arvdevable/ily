@@ -37,6 +37,11 @@ aut {
     bottom: 15px;
 }
 
+aut2 {
+    position: relative;
+    bottom: 20px;
+}
+
 
 .pm {
     position: relative;
